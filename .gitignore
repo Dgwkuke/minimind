@@ -1,4 +1,33 @@
-model/__pycache__
-out
-website/
-docs-minimind/
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Model outputs
+out/
+checkpoints/
+
+# Virtual environment
+.venv/
+.venv
+
+# IDE
+.cursor/
+.vscode/
+.idea/
+
+# Large data files (download separately)
+dataset/*.jsonl
+dataset/__pycache__/
+
+# Model weights
+MiniMind2/
+
+# uv
+uv.lock
+
+# Logs
+*.log

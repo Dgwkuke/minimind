@@ -6,12 +6,12 @@
 
 <div align="center">
 
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=jingyaogong/minimind)
-[![GitHub Repo stars](https://img.shields.io/github/stars/jingyaogong/minimind?style=social)](https://github.com/jingyaogong/minimind/stargazers)
-[![GitHub Code License](https://img.shields.io/github/license/jingyaogong/minimind)](LICENSE)
-[![GitHub last commit](https://img.shields.io/github/last-commit/jingyaogong/minimind)](https://github.com/jingyaogong/minimind/commits/master)
-[![GitHub pull request](https://img.shields.io/badge/PRs-welcome-blue)](https://github.com/jingyaogong/minimind/pulls)
-[![Collection](https://img.shields.io/badge/🤗-MiniMind%20%20Collection-blue)](https://huggingface.co/collections/jingyaogong/minimind-66caf8d999f5c7fa64f399e5)
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=YOUR_USERNAME/minimind)
+[![GitHub Repo stars](https://img.shields.io/github/stars/YOUR_USERNAME/minimind?style=social)](https://github.com/YOUR_USERNAME/minimind/stargazers)
+[![GitHub Code License](https://img.shields.io/github/license/YOUR_USERNAME/minimind)](LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/minimind)](https://github.com/YOUR_USERNAME/minimind/commits/master)
+[![GitHub pull request](https://img.shields.io/badge/PRs-welcome-blue)](https://github.com/YOUR_USERNAME/minimind/pulls)
+[![Collection](https://img.shields.io/badge/🤗-MiniMind%20%20Collection-blue)](https://huggingface.co/collections/YOUR_USERNAME/minimind-66caf8d999f5c7fa64f399e5)
 
 </div>
 
@@ -34,7 +34,7 @@
 * 此开源项目旨在完全从0开始，仅用3块钱成本 + 2小时！即可训练出仅为25.8M的超小语言模型**MiniMind**。
 * **MiniMind**系列极其轻量，最小版本体积是 GPT-3 的 $\frac{1}{7000}$，力求做到最普通的个人GPU也可快速训练。
 * 项目同时开源了大模型的极简结构-包含拓展共享混合专家(MoE)、数据集清洗、预训练(Pretrain)、监督微调(SFT)、LoRA微调、直接偏好优化(DPO)、强化学习训练(RLAIF: PPO/GRPO等)、模型蒸馏等全过程代码。
-* **MiniMind**同时拓展了视觉多模态的VLM: [MiniMind-V](https://github.com/jingyaogong/minimind-v)。
+* **MiniMind**同时拓展了视觉多模态的VLM: [MiniMind-V](https://github.com/YOUR_USERNAME/minimind-v)。
 * 项目所有核心算法代码均从0使用PyTorch原生重构！不依赖第三方库提供的抽象接口。
 * 这不仅是大语言模型的全阶段开源复现，也是一个入门LLM的教程。
 * 希望此项目能为所有人提供一个抛砖引玉的示例，一起感受创造的乐趣！推动更广泛AI社区的进步！
@@ -55,7 +55,7 @@
   <table>
     <tr>
       <td align="center">
-        <a href="https://huggingface.co/collections/jingyaogong/minimind-66caf8d999f5c7fa64f399e5" style="text-decoration: none;">
+        <a href="https://huggingface.co/collections/YOUR_USERNAME/minimind-66caf8d999f5c7fa64f399e5" style="text-decoration: none;">
           <img src="./images/and_huggingface.png" alt="Hugging Face Logo" style="vertical-align: middle; width: auto; max-width: 100%;" />
         </a>
       </td>
@@ -144,7 +144,7 @@
 <summary> <b>2025-04-26</b> </summary>
 
 - 重要更新
-- 如有兼容性需要，可访问[🔗旧仓库内容🔗](https://github.com/jingyaogong/minimind/tree/7da201a944a90ed49daef8a0265c959288dff83a)。
+- 如有兼容性需要，可访问[🔗旧仓库内容🔗](https://github.com/YOUR_USERNAME/minimind/tree/7da201a944a90ed49daef8a0265c959288dff83a)。
 - MiniMind模型参数完全改名，对齐Transformers库模型（统一命名）。
 - generate方式重构，继承自GenerationMixin类。
 - 🔥支持llama.cpp、vllm、ollama等热门三方生态。
@@ -166,7 +166,7 @@ MiniMind2系列旧模型均经过权重映射+（微调训练）QKVO线性层校
 
 - 迎来发布以来重大更新，Release MiniMind2 Series。
 - 代码几乎全部重构，使用更简洁明了的统一结构。
-  如有旧代码的兼容性需要，可访问[🔗旧仓库内容🔗](https://github.com/jingyaogong/minimind/tree/6e9cd28ef9b34a0a10afbdf6f59e65cb6e628efb)。
+  如有旧代码的兼容性需要，可访问[🔗旧仓库内容🔗](https://github.com/YOUR_USERNAME/minimind/tree/6e9cd28ef9b34a0a10afbdf6f59e65cb6e628efb)。
 - 免去数据预处理步骤。统一数据集格式，更换为`jsonl`格式杜绝数据集下载混乱的问题。
 - MiniMind2系列效果相比MiniMind-V1显著提升。
 - 小问题：{kv-cache写法更标准、MoE的负载均衡loss被考虑等等}
@@ -184,7 +184,7 @@ MiniMind2系列旧模型均经过权重映射+（微调训练）QKVO线性层校
 
 **2024-10-05**
 - 为MiniMind拓展了多模态能力之---视觉
-- 移步孪生项目[minimind-v](https://github.com/jingyaogong/minimind-v)查看详情！
+- 移步孪生项目[minimind-v](https://github.com/YOUR_USERNAME/minimind-v)查看详情！
 
 **2024-09-27**
 - 09-27更新pretrain数据集的预处理方式，为了保证文本完整性，放弃预处理成.bin训练的形式（轻微牺牲训练速度）。
@@ -223,15 +223,27 @@ MiniMind2系列旧模型均经过权重映射+（微调训练）QKVO线性层校
 ### 第0步
 
 ```bash
-git clone https://github.com/jingyaogong/minimind.git
+git clone https://github.com/YOUR_USERNAME/minimind.git
 ```
 
 ## Ⅰ 测试已有模型效果
 
 ### 1.环境准备
 
+本项目使用 [uv](https://github.com/astral-sh/uv) 管理 Python 依赖：
+
 ```bash
-pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple
+# 安装 uv（已有可跳过）
+pip install uv
+
+# 同步依赖
+uv sync
+
+# 激活虚拟环境（可选）
+uv sync --active
+
+# 如需开发依赖
+uv sync --group dev
 ```
 
 ### 2.下载模型
@@ -239,7 +251,7 @@ pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple
 到项目根目录
 
 ```bash
-git clone https://huggingface.co/jingyaogong/MiniMind2 # or https://www.modelscope.cn/models/gongjy/MiniMind2
+git clone https://huggingface.co/YOUR_USERNAME/MiniMind2 # or https://www.modelscope.cn/models/gongjy/MiniMind2
 ```
 
 ### （可选）命令行问答
@@ -261,7 +273,7 @@ streamlit run web_demo.py
 
 ```bash
 # ollama
-ollama run jingyaogong/minimind2
+ollama run YOUR_USERNAME/minimind2
 # vllm
 vllm serve ./MiniMind2/ --served-model-name "minimind"
 ```
@@ -271,7 +283,11 @@ vllm serve ./MiniMind2/ --served-model-name "minimind"
 ### 1.环境准备
 
 ```bash
-pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple
+# 安装 uv（如未安装）
+pip install uv
+
+# 同步依赖
+uv sync
 ```
 
 <details style="color:rgb(128,128,128)">
@@ -552,7 +568,7 @@ quality（当然也还不算high，提升数据质量无止尽）。
 > [!NOTE]
 > 2025-02-05后，开源MiniMind最终训练所用的所有数据集，因此无需再自行预处理大规模数据集，避免重复性的数据处理工作。
 
-MiniMind训练数据集下载地址： [ModelScope](https://www.modelscope.cn/datasets/gongjy/minimind_dataset/files) | [HuggingFace](https://huggingface.co/datasets/jingyaogong/minimind_dataset/tree/main)
+MiniMind训练数据集下载地址： [ModelScope](https://www.modelscope.cn/datasets/gongjy/minimind_dataset/files) | [HuggingFace](https://huggingface.co/datasets/YOUR_USERNAME/minimind_dataset/tree/main)
 
 > 无需全部clone，可单独下载所需的文件
 
@@ -1080,7 +1096,7 @@ MiniMind 着手实现**2+N**种基本+前沿的RLAIF方法：
 
 #### 1️⃣ 数据集准备 (需要)
 
-为了快速验证RLAIF的效果，这里从SFT数据集中随机采样了1万条高质量对话，构建约1MB大小的`rlaif-mini.jsonl`([Huggingface](https://huggingface.co/datasets/jingyaogong/minimind_dataset/blob/main/rlaif-mini.jsonl))
+为了快速验证RLAIF的效果，这里从SFT数据集中随机采样了1万条高质量对话，构建约1MB大小的`rlaif-mini.jsonl`([Huggingface](https://huggingface.co/datasets/YOUR_USERNAME/minimind_dataset/blob/main/rlaif-mini.jsonl))
 
 数据格式与SFT一致，但assistant并不需要内容，因为训练过程中完全由 $\Pi$ 策略模型实时采样生成。因此形如：
 
@@ -1326,7 +1342,7 @@ python train_spo.py
 
 #### ① PyTorch原生模型
 
-MiniMind2模型权重 ([ModelScope](https://www.modelscope.cn/models/gongjy/MiniMind2-PyTorch) | [HuggingFace](https://huggingface.co/jingyaogong/MiniMind2-Pytorch))
+MiniMind2模型权重 ([ModelScope](https://www.modelscope.cn/models/gongjy/MiniMind2-PyTorch) | [HuggingFace](https://huggingface.co/YOUR_USERNAME/MiniMind2-Pytorch))
 
 
 <details style="color:rgb(128,128,128)">
@@ -1343,7 +1359,7 @@ MiniMind2模型权重 ([ModelScope](https://www.modelscope.cn/models/gongjy/Mini
 #### ② Transformers模型
 
 MiniMind系列 ([ModelScope](https://www.modelscope.cn/collections/MiniMind-b72f4cfeb74b47)
-| [HuggingFace](https://huggingface.co/collections/jingyaogong/minimind-66caf8d999f5c7fa64f399e5))
+| [HuggingFace](https://huggingface.co/collections/YOUR_USERNAME/minimind-66caf8d999f5c7fa64f399e5))
 
 ---
 
@@ -1676,7 +1692,7 @@ MiniMind模型本身预训练数据集小的可怜，也没有针对性的对测
 * [./scripts/serve_openai_api.py](./scripts/serve_openai_api.py)完成了兼容openai-api的最简聊天接口，方便将自己的模型接入第三方UI
   例如FastGPT、OpenWebUI、Dify等等。
 
-* 从[Huggingface](https://huggingface.co/collections/jingyaogong/minimind-66caf8d999f5c7fa64f399e5)下载模型权重文件，文件树：
+* 从[Huggingface](https://huggingface.co/collections/YOUR_USERNAME/minimind-66caf8d999f5c7fa64f399e5)下载模型权重文件，文件树：
     ```
     minimind (root dir)
     ├─<MiniMind-Model-Name>（例如MiniMind2）
@@ -1714,9 +1730,9 @@ MiniMind模型本身预训练数据集小的可怜，也没有针对性的对测
 
 ## 👨‍💻 更多
 
-* <a href="https://github.com/jingyaogong/minimind/discussions/618">🔗从MiniMind-LLM微调扩散语言模型</a>
+* <a href="https://github.com/YOUR_USERNAME/minimind/discussions/618">🔗从MiniMind-LLM微调扩散语言模型</a>
 
-* <a href="https://github.com/jingyaogong/minimind/discussions/611">🔗模型的generate方法说明</a>
+* <a href="https://github.com/YOUR_USERNAME/minimind/discussions/611">🔗模型的generate方法说明</a>
 
 ---
 
@@ -1832,7 +1848,7 @@ ollama push your_username/minimind:latest
 ⭐️ 也可直接使用我提供的ollama模型一键启动：
 
 ```bash
-ollama run jingyaogong/minimind2 # 其他可选 minimind2-r1 / minimind2-small / minimind2-small-r1
+ollama run YOUR_USERNAME/minimind2 # 其他可选 minimind2-r1 / minimind2-small / minimind2-small-r1
 >>> 你叫什么名字
 我是一个语言模型...
 ```
@@ -1863,28 +1879,28 @@ python llmexport.py --path /path/to/MiniMind2/  --export mnn --hqq --dst_path Mi
 > 篇幅超长水平有限难免纰漏，欢迎在Issues交流指正或提交PR改进项目<br/>
 > 您的小小支持就是持续改进此项目的动力！
 
-## 🤝[贡献者](https://github.com/jingyaogong/minimind/graphs/contributors)
+## 🤝[贡献者](https://github.com/YOUR_USERNAME/minimind/graphs/contributors)
 
-<a href="https://github.com/jingyaogong/minimind/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=jingyaogong/minimind" />
+<a href="https://github.com/YOUR_USERNAME/minimind/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=YOUR_USERNAME/minimind" />
 </a>
 
 ## 😊鸣谢
 
 <a href="https://github.com/ipfgao"><b>@ipfgao</b></a>:
-<a href="https://github.com/jingyaogong/minimind/issues/26">🔗训练步骤记录</a>
+<a href="https://github.com/YOUR_USERNAME/minimind/issues/26">🔗训练步骤记录</a>
 
 <a href="https://github.com/WangRongsheng"><b>@WangRongsheng</b></a>:
-<a href="https://github.com/jingyaogong/minimind/issues/39">🔗大型数据集预处理</a>
+<a href="https://github.com/YOUR_USERNAME/minimind/issues/39">🔗大型数据集预处理</a>
 
 <a href="https://github.com/pengqianhan"><b>@pengqianhan</b></a>:
-<a href="https://github.com/jingyaogong/minimind/issues/73">🔗一个简明教程</a>
+<a href="https://github.com/YOUR_USERNAME/minimind/issues/73">🔗一个简明教程</a>
 
 <a href="https://github.com/RyanSunn"><b>@RyanSunn</b></a>:
-<a href="https://github.com/jingyaogong/minimind/issues/75">🔗推理过程学习记录</a>
+<a href="https://github.com/YOUR_USERNAME/minimind/issues/75">🔗推理过程学习记录</a>
 
 <a href="https://github.com/Nijikadesu"><b>@Nijikadesu</b></a>:
-<a href="https://github.com/jingyaogong/minimind/issues/213">🔗以交互笔记本方式分解项目代码</a>
+<a href="https://github.com/YOUR_USERNAME/minimind/issues/213">🔗以交互笔记本方式分解项目代码</a>
 
 
 <details close> 
@@ -1908,26 +1924,26 @@ python llmexport.py --path /path/to/MiniMind2/  --export mnn --hqq --dst_path Mi
 
 ## 🫶支持者
 
-<a href="https://github.com/jingyaogong/minimind/stargazers">
+<a href="https://github.com/YOUR_USERNAME/minimind/stargazers">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://reporoster.com/stars/dark/jingyaogong/minimind"/>
-      <source media="(prefers-color-scheme: light)" srcset="https://reporoster.com/stars/jingyaogong/minimind"/>
-      <img alt="github contribution grid snake animation" src="https://reporoster.com/stars/jingyaogong/minimind"/>
+      <source media="(prefers-color-scheme: dark)" srcset="https://reporoster.com/stars/dark/YOUR_USERNAME/minimind"/>
+      <source media="(prefers-color-scheme: light)" srcset="https://reporoster.com/stars/YOUR_USERNAME/minimind"/>
+      <img alt="github contribution grid snake animation" src="https://reporoster.com/stars/YOUR_USERNAME/minimind"/>
     </picture>
 </a>
 
-<a href="https://github.com/jingyaogong/minimind/network/members">
+<a href="https://github.com/YOUR_USERNAME/minimind/network/members">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://reporoster.com/forks/dark/jingyaogong/minimind"/>
-      <source media="(prefers-color-scheme: light)" srcset="https://reporoster.com/forks/jingyaogong/minimind"/>
-      <img alt="github contribution grid snake animation" src="https://reporoster.com/forks/jingyaogong/minimind"/>
+      <source media="(prefers-color-scheme: dark)" srcset="https://reporoster.com/forks/dark/YOUR_USERNAME/minimind"/>
+      <source media="(prefers-color-scheme: light)" srcset="https://reporoster.com/forks/YOUR_USERNAME/minimind"/>
+      <img alt="github contribution grid snake animation" src="https://reporoster.com/forks/YOUR_USERNAME/minimind"/>
     </picture>
 </a>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=jingyaogong/minimind&type=Date&theme=dark"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=jingyaogong/minimind&type=Date"/>
-  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=jingyaogong/minimind&type=Date"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=YOUR_USERNAME/minimind&type=Date&theme=dark"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=YOUR_USERNAME/minimind&type=Date"/>
+  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=YOUR_USERNAME/minimind&type=Date"/>
 </picture>
 
 ## 🎉 Awesome Work using MiniMind
@@ -1958,7 +1974,7 @@ If you find MiniMind helpful in your research or work, please cite:
   title={MiniMind: Train a Tiny LLM from scratch},
   author={Jingyao Gong},
   year={2024},
-  howpublished={https://github.com/jingyaogong/minimind}
+  howpublished={https://github.com/YOUR_USERNAME/minimind}
 }
 ```
 
